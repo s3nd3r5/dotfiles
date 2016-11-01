@@ -14,7 +14,7 @@ set $mod Mod4
 
 # font for window titles. ISO 10646 = Unicode
 font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1 
-font xft:Droid Sans Mono 9
+font xft:DejaVu Sans Mono 6
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -148,7 +148,7 @@ bar {
 
 	}
 
-        font xft:Droid Sans Mono 10
+        font xft:DejaVu Sans Mono 6
 }
 
 client.focused             #16181A   #81E8FF    #16181A
