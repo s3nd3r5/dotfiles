@@ -1,0 +1,6 @@
+# dotfiles
+
+.gitconfigs
+
+i3
+
