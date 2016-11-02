@@ -3,18 +3,23 @@
 ##
 export PS1='[\e[1m\e[32m\u\e[0m\e[21m]$ '
 export PROMPT_COMMAND='echo -ne "\033]0;`pwd`\007"'
-export PATH=$PATH:/home/senders/.bin
 export PRJ_HOME=$HOME/projects
 export APP_HOME=$HOME/applications
 export CONF_HOME=$HOME/configs
+export HADOOP_HOME=$HOME/applications/hadoop-latest
 
+
+export PATH=$PATH:/home/senders/.bin:$HADOOP_HOME/bin
 ##
 #	Alias
 ##
 alias ccopy='xclip -selection clipboard'
 alias cpaste='xclip -selection clipboard -o'
-
-
+alias tgz='tar czvf'
+alias utgz='tar xzvf'
+alias lsa='ls -al'
+alias unmute='amixer sset Master unmute'
+alias mute='amiser sset Master mute'
 ##
 #	Functions
 ##
