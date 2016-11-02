@@ -19,7 +19,7 @@ alias tgz='tar czvf'
 alias utgz='tar xzvf'
 alias lsa='ls -al'
 alias unmute='amixer sset Master unmute'
-alias mute='amiser sset Master mute'
+alias mute='amixer sset Master mute'
 ##
 #	Functions
 ##
