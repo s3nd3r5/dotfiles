@@ -7,7 +7,7 @@ export PRJ_HOME=$HOME/projects
 export APP_HOME=$HOME/applications
 export CONF_HOME=$HOME/configs
 export HADOOP_HOME=$HOME/applications/hadoop-latest
-
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle/jre
 
 export PATH=$PATH:/home/senders/.bin:$HADOOP_HOME/bin
 ##
