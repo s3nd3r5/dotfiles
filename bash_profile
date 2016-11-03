@@ -1,8 +1,12 @@
 ##
 #	Exports
 ##
-export PS1='[\e[1m\e[32m\u\e[0m\e[21m]$ '
-export PROMPT_COMMAND='echo -ne "\033]0;`pwd`\007"'
+export PS1='[\[\e[1m\e[32m\]\u\[\e[0m\e[21m\]]$ '
+#Prompt Command Function CWD
+function cwd {
+	pwd | awk '{ n=split($0,a,"/"); print a[n-1]"/"a[n] }'
+}
+export PROMPT_COMMAND='echo -ne "\033]0;`cwd`\007"'
 export PRJ_HOME=$HOME/projects
 export APP_HOME=$HOME/applications
 export CONF_HOME=$HOME/configs
