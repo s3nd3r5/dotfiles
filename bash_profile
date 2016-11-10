@@ -11,9 +11,12 @@ export PRJ_HOME=$HOME/projects
 export APP_HOME=$HOME/applications
 export CONF_HOME=$HOME/configs
 export HADOOP_HOME=$HOME/applications/hadoop-latest
-export JAVA_HOME=/usr/lib/jvm/java-8-oracle/jre
-
-export PATH=$PATH:/home/senders/.bin:$HADOOP_HOME/bin
+export JAVA_HOME_8=/usr/lib/jvm/java-8-oracle/
+export JAVA_HOME_7=/usr/lib/jvm/java-7-oracle/
+export JAVA_HOME=$JAVA_HOME_8
+export SCALA_HOME=$APP_HOME/scala-latest
+export HERMES_BIN=$PRJ_HOME/hermes/tools/bin
+export PATH=$PATH:/home/senders/.bin:$HADOOP_HOME/bin:$SCALA_HOME/bin:$HERMES_BIN
 ##
 #	Alias
 ##
@@ -22,8 +25,10 @@ alias cpaste='xclip -selection clipboard -o'
 alias tgz='tar czvf'
 alias utgz='tar xzvf'
 alias lsa='ls -al'
-alias unmute='amixer sset Master unmute'
-alias mute='amixer sset Master mute'
+alias a_mute='amixer sset Master toggle'
+alias bgrand='xsetroot -solid "#$(openssl rand -hex 3)"'
+alias jshell='docker run -it java:9 jshell'
+alias resource='source ~/.bash_profile'
 ##
 #	Functions
 ##
@@ -42,3 +47,5 @@ function clip {
 function print_clip {
 	cpaste
 }
+
+
