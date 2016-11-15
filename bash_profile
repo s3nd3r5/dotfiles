@@ -1,3 +1,7 @@
+# Private Bash Profile for things I don't want in git
+if [ -f ~/.private_bash_profile ]; then
+. ~/.private_bash_profile
+fi
 ##
 #	Exports
 ##
@@ -15,8 +19,7 @@ export JAVA_HOME_8=/usr/lib/jvm/java-8-oracle/
 export JAVA_HOME_7=/usr/lib/jvm/java-7-oracle/
 export JAVA_HOME=$JAVA_HOME_8
 export SCALA_HOME=$APP_HOME/scala-latest
-export HERMES_BIN=$PRJ_HOME/hermes/tools/bin
-export PATH=$PATH:/home/senders/.bin:$HADOOP_HOME/bin:$SCALA_HOME/bin:$HERMES_BIN
+export PATH=$PATH:/home/senders/.bin:$HADOOP_HOME/bin:$SCALA_HOME/bin
 ##
 #	Alias
 ##
@@ -26,7 +29,8 @@ alias tgz='tar czvf'
 alias utgz='tar xzvf'
 alias lsa='ls -al'
 alias a_mute='amixer sset Master toggle'
-alias bgrand='xsetroot -solid "#$(openssl rand -hex 3)"'
+alias bgrand='fn_bg_rand'
+alias bgset='xsetroot -solid '
 alias jshell='docker run -it java:9 jshell'
 alias resource='source ~/.bash_profile'
 ##
@@ -47,5 +51,10 @@ function clip {
 function print_clip {
 	cpaste
 }
-
+function fn_bg_rand {
+	__CLR=$(openssl rand -hex 3)
+	xsetroot -solid "#${__CLR}"
+	echo "#"$__CLR
+	unset __CLR
+}
 
