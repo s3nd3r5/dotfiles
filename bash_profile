@@ -19,7 +19,7 @@ export JAVA_HOME_8=/usr/lib/jvm/java-8-oracle/
 export JAVA_HOME_7=/usr/lib/jvm/java-7-oracle/
 export JAVA_HOME=$JAVA_HOME_8
 export SCALA_HOME=$APP_HOME/scala-latest
-export PATH=$PATH:/home/senders/.bin:$HADOOP_HOME/bin:$SCALA_HOME/bin
+export PATH=$PATH:/home/senders/.bin:$HADOOP_HOME/bin:$SCALA_HOME/bin:$HOME/.cargo/bin
 ##
 #	Alias
 ##
@@ -33,6 +33,8 @@ alias bgrand='fn_bg_rand'
 alias bgset='xsetroot -solid '
 alias jshell='docker run -it java:9 jshell'
 alias resource='source ~/.bash_profile'
+alias whoisport='lsof -t tcp:'
+alias checksum='openssl dgst -sha256'
 ##
 #	Functions
 ##
@@ -51,9 +53,12 @@ function clip {
 function print_clip {
 	cpaste
 }
+function fn_bg_set {
+	xsetroot -solid "#$1"
+}
 function fn_bg_rand {
 	__CLR=$(openssl rand -hex 3)
-	xsetroot -solid "#${__CLR}"
+	fn_bg_set $__CLR
 	echo "#"$__CLR
 	unset __CLR
 }

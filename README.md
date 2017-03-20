@@ -10,5 +10,11 @@ then run `git rm --cached gitconfig` to no longer have it appear but still exist
 
 `ln -s $PWD/file $HOME/.file`
 
+## Custom Configuraitons
 
+In sublime material theme edit:
 
+```
+If you do Material Theme Configuration -> Tabs -> Small Tabs and any other setting you like
+
+```
