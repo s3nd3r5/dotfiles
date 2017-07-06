@@ -1,0 +1,25 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Firefox-A15H2Y.desktop
+x-scheme-handler/https=userapp-Firefox-A15H2Y.desktop
+x-scheme-handler/ftp=userapp-Firefox-A15H2Y.desktop
+x-scheme-handler/chrome=userapp-Firefox-A15H2Y.desktop
+text/html=userapp-Firefox-A15H2Y.desktop
+application/x-extension-htm=userapp-Firefox-A15H2Y.desktop
+application/x-extension-html=userapp-Firefox-A15H2Y.desktop
+application/x-extension-shtml=userapp-Firefox-A15H2Y.desktop
+application/xhtml+xml=userapp-Firefox-A15H2Y.desktop
+application/x-extension-xhtml=userapp-Firefox-A15H2Y.desktop
+application/x-extension-xht=userapp-Firefox-A15H2Y.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Firefox-A15H2Y.desktop;
+x-scheme-handler/https=userapp-Firefox-A15H2Y.desktop;
+x-scheme-handler/ftp=userapp-Firefox-A15H2Y.desktop;
+x-scheme-handler/chrome=userapp-Firefox-A15H2Y.desktop;
+text/html=userapp-Firefox-A15H2Y.desktop;
+application/x-extension-htm=userapp-Firefox-A15H2Y.desktop;
+application/x-extension-html=userapp-Firefox-A15H2Y.desktop;
+application/x-extension-shtml=userapp-Firefox-A15H2Y.desktop;
+application/xhtml+xml=userapp-Firefox-A15H2Y.desktop;
+application/x-extension-xhtml=userapp-Firefox-A15H2Y.desktop;
+application/x-extension-xht=userapp-Firefox-A15H2Y.desktop;

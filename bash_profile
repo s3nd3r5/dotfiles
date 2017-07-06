@@ -1,3 +1,6 @@
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
 # Private Bash Profile for things I don't want in git
 if [ -f ~/.private_bash_profile ]; then
 . ~/.private_bash_profile

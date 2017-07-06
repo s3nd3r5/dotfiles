@@ -157,8 +157,8 @@ bar {
 		inactive_workspace #16181A  #16181A #b0c8cd
 
 	}
-
-        font xft:DejaVu Sans Mono 9
+        font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+	font xft:DejaVuSans Mono 9, Awesome 8
 }
 
 client.focused             #16181A   #81E8FF    #16181A

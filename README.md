@@ -10,6 +10,10 @@ then run `git rm --cached gitconfig` to no longer have it appear but still exist
 
 `ln -s $PWD/file $HOME/.file`
 
+## Terminalrc
+
+xfce4/terminalrc -> .config/Terminal
+
 ## Custom Configuraitons
 
 In sublime material theme edit:
