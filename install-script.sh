@@ -5,7 +5,7 @@
 # exit
 # logout
 # sign-in again
-sudo apt-get install vim curl i3 suckless-tools git lightdm network-manager apt-transport-https network-manager-gnome thunar xfce4-notifyd firefox-esr fonts-font-awesome
+sudo apt-get install vim curl i3 suckless-tools git lightdm network-manager apt-transport-https network-manager-gnome lxapearance pcmanfm firefox-esr fonts-font-awesome xclip
 sudo service network-manager start
 
 # setup wifi

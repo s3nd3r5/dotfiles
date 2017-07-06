@@ -1,0 +1,141 @@
+[07/06/17, 13:27:49:522] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[07/06/17, 13:27:49:524] info: ║      Slack 2.6.3, linux 4.9.0-3-amd64 on x64 at 07/06/17, 13:27:49:516      ║
+[07/06/17, 13:27:49:524] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[07/06/17, 13:27:49:731] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/senders/configs/dotfiles/config/Slack/logs/recorded-trace
+[07/06/17, 13:27:49:741] info: Initializing local storage instance at path: /home/senders/configs/dotfiles/config/Slack/local-settings.json
+[07/06/17, 13:27:49:944] info: Store: persist/REHYDRATE
+[07/06/17, 13:27:49:946] info: BrowserStore: Let's migrate Redux state
+[07/06/17, 13:27:49:947] info: Initializing local storage instance at path: /home/senders/configs/dotfiles/config/Slack/redux-state.json
+[07/06/17, 13:27:49:948] info: BrowserStore: Finished migration, make a note of it
+[07/06/17, 13:27:49:950] info: Store: COMPLETED
+{ redux: true, macgap: false }
+[07/06/17, 13:27:50:125] info: Tray Handler: Showing a tray balloon with title: Welcome to Slack!
+[07/06/17, 13:27:50:132] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.3',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 9, build: 0 },
+  isTitleBarHidden: false,
+  linux: 
+   { os: 'Debian GNU/Linux 9.0 (stretch)',
+     release: 'stretch',
+     desktopEnvironment: undefined } }
+[07/06/17, 13:27:50:136] info: Store: UPDATE_SETTINGS
+{ hasRunApp: true }
+[07/06/17, 13:27:50:144] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[07/06/17, 13:27:50:147] info: Loading windowMetrics
+[07/06/17, 13:27:50:149] info: Store: SAVE_WINDOW_SETTINGS
+{ position: [ 384, 108 ], size: [ 1152, 864 ] }
+[07/06/17, 13:27:50:167] info: Store: UPDATE_SETTINGS
+{ PrefSSBFileDownloadPath: '/home/senders/Downloads' }
+[07/06/17, 13:27:50:170] info: App: Welcome to Slack 2.6.3 x64
+[07/06/17, 13:27:50:171] info: App load time: 725ms
+[07/06/17, 13:27:50:173] info: Store: SET_FULL_SCREEN
+[07/06/17, 13:27:51:086] info: Store: SET_NETWORK_STATUS online
+[07/06/17, 13:27:51:102] info: Main window finished load. Launched on login: false
+[07/06/17, 13:27:52:113] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 636, 1041 ],
+  position: [ 1282, 18 ],
+  isMaximized: false }
+[07/06/17, 13:28:32:826] info: Store: ADD_NEW_TEAM
+{ id: 'U2WGHQMJB',
+  name: '[REDACTED]',
+  team_id: 'T024FA1UX',
+  team_name: '[REDACTED]',
+  team_url: '[REDACTED]' }
+[07/06/17, 13:28:32:836] info: Store: SET_LOGIN_DIALOG
+[07/06/17, 13:28:35:256] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T024FA1UX' }
+[07/06/17, 13:28:37:628] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T024FA1UX' }
+[07/06/17, 13:28:38:337] info: Store: SELECT_CHANNEL C024FA1V3
+[07/06/17, 13:28:38:381] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T024FA1UX' }
+[07/06/17, 13:28:39:626] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-08/6091297587_8559e024fc48e68ecb8e_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-08/6091297587_8559e024fc48e68ecb8e_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-08/6091297587_8559e024fc48e68ecb8e_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-08/6091297587_8559e024fc48e68ecb8e_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-08/6091297587_8559e024fc48e68ecb8e_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-08/6091297587_8559e024fc48e68ecb8e_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-08/6091297587_8559e024fc48e68ecb8e_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-06-08/6091297587_8559e024fc48e68ecb8e_132.jpg' },
+  teamId: 'T024FA1UX' }
+[07/06/17, 13:28:58:253] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 956, 1041 ],
+  position: [ 962, 18 ],
+  isMaximized: false }
+[07/06/17, 13:29:01:429] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1916, 1041 ], position: [ 2, 18 ], isMaximized: false }
+[07/06/17, 13:38:02:828] info: Store: SELECT_CHANNEL G5Z0QDP4Y
+[07/06/17, 13:38:06:201] info: Store: SELECT_CHANNEL C02JCSUN6
+[07/06/17, 13:38:09:047] info: Store: SELECT_CHANNEL C047H3XMT
+[07/06/17, 13:38:16:064] info: Store: SELECT_CHANNEL C06RGM5HU
+[07/06/17, 13:39:02:558] info: Store: SELECT_CHANNEL G5ZFV3CDR
+[07/06/17, 13:39:17:504] info: Store: FOREGROUND_APP
+[07/06/17, 13:40:00:385] info: Store: NEW_NOTIFICATION
+{ id: 'oQjBHXh6lKX7B3N',
+  title: '[REDACTED]',
+  content: '[REDACTED]',
+  launchUri: 'slack://channel?id=C2R0WEX6H&message=1499362800.955812&team=T024FA1UX',
+  imageUri: null,
+  channel: 'C2R0WEX6H',
+  msg: '1499362800.955812',
+  avatarImage: 'https://ca.slack-edge.com/T024FA1UX-U3NF0LXQR-191b3ab02dd6-512',
+  teamId: 'T024FA1UX' }
+[07/06/17, 13:41:07:882] info: Store: SELECT_CHANNEL C03FPJYSQ
+[07/06/17, 13:42:56:407] info: Store: SELECT_CHANNEL C03J6G2VA
+[07/06/17, 13:46:59:040] info: Store: SELECT_CHANNEL C4USRB1FG
+[07/06/17, 13:47:00:485] info: Store: SELECT_CHANNEL C2R0WEX6H
+[07/06/17, 13:47:01:403] info: Store: SELECT_CHANNEL C5LF5APV1
+[07/06/17, 13:47:03:405] info: Store: SELECT_CHANNEL C06RGM5HU
+[07/06/17, 13:47:03:875] info: Store: SELECT_CHANNEL G5ZFV3CDR
+[07/06/17, 13:47:06:564] info: Store: SELECT_CHANNEL C2R0WEX6H
+[07/06/17, 13:47:33:599] info: Store: SELECT_CHANNEL G5ZFV3CDR
+[07/06/17, 14:21:36:977] info: Store: SELECT_CHANNEL C06RGM5HU
+[07/06/17, 14:21:42:144] info: Store: SELECT_CHANNEL C03FPJYSQ
+[07/06/17, 14:21:42:657] info: Store: SELECT_CHANNEL C03J6G2VA
+[07/06/17, 14:25:34:097] info: Store: SELECT_CHANNEL C029RP9TD
+[07/06/17, 14:27:47:341] info: Store: SELECT_CHANNEL G5ZFV3CDR
+[07/06/17, 14:35:04:233] info: Store: NEW_NOTIFICATION
+{ id: 'zK78HGiK5m5gwAz',
+  title: '[REDACTED]',
+  content: '[REDACTED]',
+  launchUri: 'slack://channel?id=C2R0WEX6H&message=1499366103.881352&team=T024FA1UX',
+  imageUri: null,
+  channel: 'C2R0WEX6H',
+  msg: '1499366103.881352',
+  avatarImage: 'https://ca.slack-edge.com/T024FA1UX-U3NF0LXQR-191b3ab02dd6-512',
+  teamId: 'T024FA1UX' }
+[07/06/17, 14:35:46:014] info: Store: NEW_NOTIFICATION
+{ id: 'RoPyunsOJKJP62V',
+  title: '[REDACTED]',
+  content: '[REDACTED]',
+  launchUri: 'slack://channel?id=C2R0WEX6H&message=1499366145.906237&team=T024FA1UX',
+  imageUri: null,
+  channel: 'C2R0WEX6H',
+  msg: '1499366145.906237',
+  avatarImage: 'https://ca.slack-edge.com/T024FA1UX-U3NF0LXQR-191b3ab02dd6-512',
+  teamId: 'T024FA1UX' }

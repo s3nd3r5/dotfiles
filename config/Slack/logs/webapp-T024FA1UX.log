@@ -1,0 +1,90 @@
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.6.3, linux 4.9.0-3-amd64 on x64 at 07/06/17, 13:28:32:840      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+info: 2017/7/6 13:28:34.490  booted! pri:0 version:1499361374 start_ms:1499362114484 (6ms ago)
+info: 2017/7/6 13:28:35.102  _onDOMReady
+info: 2017/7/6 13:28:35.103  session_load_count_client: 1
+warn: 2017/7/6 13:28:35.105  storage_version: does not match TS.storage.version:0.85 so flushing all our keys: is_compressed
+info: 2017/7/6 13:28:35.106  _disabled:false
+info: 2017/7/6 13:28:35.107  Setting calling_rtm_start to true
+info: 2017/7/6 13:28:35.109  Starting incremental boot
+info: 2017/7/6 13:28:35.119  Connecting to: wss://mpmulti-0wdt.slack-msgs.com/?flannel=1&token=REDACTED&start_args=%3Fagent%3Dwebapp_d443956bf96b231451e1d7ae5d1d774026ea5739%26simple_latest%3Dtrue%26no_unreads%3Dtrue%26presence_sub%3Dtrue%26mpim_aware%3Dtrue%26canonical_avatars%3Dtrue%26eac_cache_ts%3Dtrue%26no_users%3Dtrue%26no_bots%3Dtrue%26no_members%3Dtrue%26cache_ts%3D0%26only_relevant_ims%3Dtrue&version_uid=d443956bf96b231451e1d7ae5d1d774026ea5739&_x_connection_log=login-0-1499362115&batch_presence_aware=1&no_annotations=1
+info: 2017/7/6 13:28:35.122  Initializing provisional MS connection and fetching rtm.start over the socket
+info: ╔═════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.6.3, linux 4.9.0-3-amd64 on x64 at 07/06/17, 13:28:35:272      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════╝
+info: 2017/7/6 13:28:36.856  booted! pri:0 version:1499361374 start_ms:1499362116849 (7ms ago)
+info: 2017/7/6 13:28:37.461  _onDOMReady
+info: 2017/7/6 13:28:37.462  session_load_count_client: 1
+warn: 2017/7/6 13:28:37.464  TS.storage.fetchLastEventTS() is empty so flushing channel data
+info: 2017/7/6 13:28:37.465  _disabled:false
+info: 2017/7/6 13:28:37.467  Setting calling_rtm_start to true
+info: 2017/7/6 13:28:37.468  Starting incremental boot
+info: 2017/7/6 13:28:37.478  Connecting to: wss://mpmulti-vxtj.slack-msgs.com/?flannel=1&token=REDACTED&start_args=%3Fagent%3Dwebapp_d443956bf96b231451e1d7ae5d1d774026ea5739%26simple_latest%3Dtrue%26no_unreads%3Dtrue%26presence_sub%3Dtrue%26mpim_aware%3Dtrue%26canonical_avatars%3Dtrue%26eac_cache_ts%3Dtrue%26no_users%3Dtrue%26no_bots%3Dtrue%26no_members%3Dtrue%26cache_ts%3D0%26only_relevant_ims%3Dtrue&version_uid=d443956bf96b231451e1d7ae5d1d774026ea5739&_x_connection_log=login-0-1499362117&batch_presence_aware=1&no_annotations=1
+info: 2017/7/6 13:28:37.481  Initializing provisional MS connection and fetching rtm.start over the socket
+info: 2017/7/6 13:28:37.938  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {"canonical_avatars":true,"include_full_users":true,"count":49,"ignore_replies":true,"include_pin_count":true,"no_members":true,"token":"REDACTED","_attempts":1}
+members from LS:0, from updated_users in rtm.start:68 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/7/6 13:28:37.942  open channels/groups/ims:1 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/7/6 13:28:38.730  Provisional WebSocket received a message of type hello
+info: 2017/7/6 13:28:38.760  Got rtm.start data but need to fetch 13 members
+info: 2017/7/6 13:28:38.790  Provisional WebSocket received a message of type message
+info: 2017/7/6 13:28:38.790  Provisional WebSocket received a message of type reconnect_url
+info: 2017/7/6 13:28:38.102  Got 13 members for rtm.start :tada:
+info: 2017/7/6 13:28:38.102  Setting calling_rtm_start to false (after rtm.start from Flannel)
+info: 2017/7/6 13:28:38.339  Finalizing incremental boot
+warn: 2017/7/6 13:28:38.340  1491ms from first html to login_sig.dispatch()
+info: 2017/7/6 13:28:39.740  User id: U2WGHQMJB, team id: T024FA1UX
+info: 2017/7/6 13:28:39.970  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {}
+members from LS:0, from updated_users in rtm.start:13 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/7/6 13:28:39.119  open channels/groups/ims:43 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/7/6 13:28:39.120  Completed incremental boot
+info: 2017/7/6 13:28:39.874  C024FA1V3 HAS MORE
+info: 2017/7/6 13:28:39.891  Finalizing provisional MS connection
+info: 2017/7/6 13:28:39.891  MS WS connected!
+info: 2017/7/6 13:28:39.919  Hello msg recvd, since_last_pong_ms:1499362119919
+info: 2017/7/6 13:28:39.919  host_id: flannel305-16527, server_version: build-id:885-4360b4156a9dec413337d5db3a1c7a87224017ae-build-slave32-2017-06-22T16:01:36-0700 golang:go1.8
+info: 2017/7/6 13:28:39.931  Hiding the reconnection banner because we are connected
+info: 2017/7/6 13:28:39.988  User id: U2WGHQMJB, team id: T024FA1UX
+error: 2017/7/6 13:28:41.940  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+error: 2017/7/6 13:28:42.950  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+info: 2017/7/6 13:28:42.571  Finished processing users.counts
+info: 2017/7/6 13:28:42.571  0 IMs with unreads, 0 total dm_count
+error: 2017/7/6 13:38:04.750  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+error: 2017/7/6 13:38:05.750  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+error: 2017/7/6 13:38:06.855  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+info: 1989
+error: 2017/7/6 13:38:07.869  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+info: 1989
+error: 2017/7/6 13:38:09.531  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+error: 2017/7/6 13:38:10.542  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+info: 1989
+error: 2017/7/6 13:38:16.614  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+error: 2017/7/6 13:38:17.616  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+error: 2017/7/6 13:39:03.590  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+error: 2017/7/6 13:41:08.313  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+error: 2017/7/6 13:41:09.312  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+info: 2017/7/6 13:42:32.398  U062Z0Y1H left channel C0LA35402
+error: 2017/7/6 13:42:56.756  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+error: 2017/7/6 13:42:57.757  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+info: 2017/7/6 13:45:37.172  U2JM24ZHU left channel C03J6G2VA
+warn: 2017/7/6 13:45:37.175  User U2JM24ZHU left channel C03J6G2VA but we don’t have that user in our model
+error: 2017/7/6 13:46:59.682  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+error: 2017/7/6 13:47:00.774  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+warn: 2017/7/6 13:47:04.477  group "G5ZFV3CDR" already displayed
+info: 2017/7/6 14:23:40.390  U03EB84T5 joined channel C03EWCPF0
+error: 2017/7/6 14:25:34.292  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+error: 2017/7/6 14:25:35.293  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
+info: 2017/7/6 14:25:35.929  _scrolled_to_bottom _all_loaded_bottom:true
+info: 2017/7/6 14:25:36.897  You joined channel C029RP9TD
+info: 2017/7/6 14:25:37.390  U2WGHQMJB joined channel C029RP9TD
+warn: 2017/7/6 14:25:37.267  checkInitialMsgHistory NOT DOING ANYTHING, because "C029RP9TD" history_is_being_fetched:true
+warn: 2017/7/6 14:25:37.302  channel "C029RP9TD" already displayed
+error: 2017/7/6 14:25:37.304  You're passing non-scalar arguments to a function throttled with TS.utility.throttleFunc; it will likely not work as you want
