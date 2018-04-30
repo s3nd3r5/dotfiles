@@ -1,0 +1,9 @@
+!Xcursor.theme: cursor-theme
+Xcursor.size: 10
+
+!Xterm Themes
+xterm*faceName: DejaVuSans Mono
+xterm*faceSize: 9
+xterm*background: #16181A
+xterm*foreground: cyan
+

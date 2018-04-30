@@ -15,8 +15,10 @@ Plugin 'VundleVim/Vundle.vim'
 " Other Plugins
 
 Plugin 'rust-lang/rust.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 Plugin 'flazz/vim-colorschemes'
-
+Plugin 'fatih/vim-go'
 
 
 " End of Plugins
@@ -25,3 +27,4 @@ filetype plugin indent on
 set path+=**
 colorscheme luna-term
 
+let g:rustfmt_autosave = 1
