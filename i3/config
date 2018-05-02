@@ -166,3 +166,5 @@ client.focused_inactive    #81E8FF   #16181A    #81E8FF
 client.unfocused           #81E8FF   #16181A    #81E8FF
 client.urgent              #FF0000   #FF0000    #FF0000
 
+for_window [class="Godot"] floating enable
+for_window [title=".*Godot Engine*."] floating disable
