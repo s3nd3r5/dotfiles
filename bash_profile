@@ -1,23 +1,24 @@
 #export LC_ALL=en_US.UTF-8
 #export LANG=en_US.UTF-8
 #export LANGUAGE=en_US.UTF-8
-export TERM=xterm-256color
-export TERMINAL=xterm
+export TERM='st-256color'
+export TERMINAL=st
 export EDITOR='vim'
 export VISUAL='vim'
 # Private Bash Profile for things I don't want in git
 if [ -f ~/.private_bash_profile ]; then
 . ~/.private_bash_profile
 fi
-##
-#	Exports
-##
-export PS1="\[$(tput setaf 6)\][\[$(tput bold)\]\[$(tput setaf 2)\]\u\[$(tput sgr0)\]\[$(tput setaf 6)\]]\\$ \[$(tput sgr0)\]"
 
 #Prompt Command Function CWD
 function cwd {
 	pwd | awk '{ n=split($0,a,"/"); print a[n-1]"/"a[n] }'
 }
+
+##
+#	Exports
+##
+export PS1="\[$(tput setaf 12)\][\[$(tput bold)\]\[$(tput setaf 2)\]\u\[$(tput sgr0)\]\[$(tput setaf 12)\]]\[$(tput setaf 13)\]\\$ \[$(tput sgr0)\]"
 export PROMPT_COMMAND='echo -ne "\033]0;`cwd`\007"'
 export PRJ_HOME=$HOME/projects
 export APP_HOME=$HOME/applications
@@ -29,7 +30,9 @@ export JAVA_HOME=$JAVA_HOME_8
 export SCALA_HOME=$APP_HOME/scala-latest
 export GO_HOME=/usr/local/go
 export GOPATH=$PLAYGROUND_HOME/go
-export PATH=$PATH:/home/senders/.bin::$SCALA_HOME/bin:$HOME/.cargo/bin:/snap/bin:$GO_HOME/bin:/usr/local/include:$GOPATH
+export ARDOUR_HOME=/opt/Ardour-5.12.0/bin
+export PATH=$PATH:/home/senders/.bin:$ARDOUR_HOME:$SCALA_HOME/bin:$HOME/.cargo/bin:/snap/bin:$GO_HOME/bin:/usr/local/include:$GOPATH
+
 ##
 #	Alias
 ##
@@ -51,6 +54,8 @@ alias exon='xrandr --output DP-1 --auto && mmoff'
 alias exoff='mmon; xrandr --output DP-1 --off'
 alias ssh-evict='ssh-keygen -f "/home/senders/.ssh/known_hosts" -R'
 alias add-ssh='ssh-add ~/.ssh/id_rsa'
+alias gemacs='emacs'
+alias emacs='emacs -nw'
 ##
 #	Functions
 ##

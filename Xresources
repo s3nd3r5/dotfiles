@@ -2,8 +2,7 @@
 Xcursor.size: 10
 
 !Xterm Themes
-xterm*faceName: DejaVuSans Mono
+xterm*faceName: PxPlus IBM VGA8
 xterm*faceSize: 9
-xterm*background: #16181A
-xterm*foreground: cyan
-
+*background: #16181A
+*foreground: cyan
