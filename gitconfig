@@ -1,0 +1,21 @@
+[alias]
+st = status -sb
+lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
+co = checkout
+df = diff
+cp = cherry-pick
+br = branch
+
+[core]
+	excludesfile = /home/senders/.gitignore_global
+autocrlf = input
+
+[user]
+  name = Stephen Enders
+  email = "smenders@gmail.com"
+[color]
+        diff = auto
+        status = auto
+        grep = auto
+        interactive = auto
+        branch = auto
